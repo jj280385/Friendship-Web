@@ -1,0 +1,51 @@
+body {
+  background: url(https://images.unsplash.com/photo-1591968743883-decc954ccce8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=375&q=80)
+    no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.navbar {
+  box-shadow: 2px 10px 15px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.user-card {
+  width: 200px;
+  height: 350px;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.card-footer {
+  border-style: none;
+}
+
+.modal-content {
+  background: rgba(253, 249, 209, 0.9);
+  width: 520px;
+}
+
+#user-modal-title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#user-info {
+  padding: inherit;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#user-gender,
+#user-age,
+#user-birthday,
+#user-region,
+#user-email {
+  border-bottom: 0.5px solid #58555a;
+}
+
+#user-avatar img {
+  margin: 10px;
+  width: 200px;
+  border-radius: 50%;
+  border: 5px #F2D16D solid;
+}
